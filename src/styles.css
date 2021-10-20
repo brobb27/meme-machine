@@ -197,7 +197,6 @@ body {
 }
 
 #saveForm > input {
-	all: unset;
 	position: relative;
 	bottom: 5.5rem;
 	text-align: left;
