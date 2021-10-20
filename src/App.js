@@ -29,7 +29,7 @@ class App extends React.Component {
   getImg(e) {
     e.preventDefault();
 
-    let randomNum = Math.floor(Math.random() * 100)
+    let randomNum = Math.floor(Math.random() * 99)
 
     axios.get('https://api.imgflip.com/get_memes')
     .then(res => {
